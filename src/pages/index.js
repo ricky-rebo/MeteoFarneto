@@ -13,21 +13,21 @@ class App extends Component {
       <>
         <Layout>
           <SEO title="Home" keywords={[`gatsby`, `MDBReact`, `react`, `Material Design For Bootstrap`]} />
-        <Carousel />
-        <Intro />
-        <main>
-          <AboutSection />
-          <section id="cardSection">
-            <h2 className="h1-responsive text-center font-weight-bold mb-5">
-              Our bestsellers
-            </h2>
-            <MDBRow className="m-0" center>
-              <Card />
-              <Card />
-              <Card />
-            </MDBRow>
-          </section>
-        </main>
+          <Carousel />
+          <Intro />
+          <main>
+            <AboutSection />
+            <section id="cardSection">
+              <h2 className="h1-responsive text-center font-weight-bold mb-5">
+                Our bestsellers
+              </h2>
+              <MDBRow className="m-0" center>
+                <Card />
+                <Card />
+                <Card />
+              </MDBRow>
+            </section>
+          </main>
         </Layout>
       </>
     );
