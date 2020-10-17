@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-material-design-for-bootstrap",
+  "name": "meteofarneto",
   "private": true,
-  "description": "A simple starter which lets you quickly start developing with Gastby and Material Design For Bootstrap",
+  "description": "Stazione di rilevamento metereologico situata a Farneto di Castellarano (RE)",
   "version": "0.1.0",
-  "author": "Anna Morawska <a.morawska@mdbootstrap.com>",
+  "author": "Riccardo Rebottini <ricky@rebottini.it>",
   "dependencies": {
     "@svgr/webpack": "^4.1.0",
     "gatsby": "^2.0.76",
@@ -24,9 +24,9 @@
   "keywords": [
     "gatsby",
     "material-design",
-    "material-design-for-bootstrap",
-    "MDB",
-    "MDB React"
+    "website",
+    "weather",
+    "italy"
   ],
   "license": "MIT",
   "scripts": {
@@ -42,9 +42,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/anna-morawska/gatsby-material-design-for-bootstrap"
-  },
-  "bugs": {
-    "url": "https://github.com/anna-morawska/gatsby-material-design-for-bootstrap/issues"
+    "url": "https://github.com/ricky-rebo/MeteoFarneto"
   }
 }
