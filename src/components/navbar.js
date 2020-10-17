@@ -17,42 +17,48 @@ class NavbarPage extends Component {
   }
 
   render() {
+    const { title, links, socials } = this.props;
+
     return (
       <MDBNavbar color="indigo" dark expand="md">
         <MDBContainer>
           <Logo  />
           <Link to="/" className="navbar-brand">
-            <strong className="ml-3 white-text">Creative Agency</strong></Link>
+            <strong className="ml-3 white-text">{title}</strong></Link>
           <MDBNavbarToggler name="navbar-toggler" onClick={this.toggleCollapse} />
           <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
             <MDBNavbarNav left>
-                <CustomNavLink to="#!">Home</CustomNavLink>
-                <CustomNavLink to="#!">About</CustomNavLink>
-                <CustomNavLink to="#!">Projects</CustomNavLink>
-                <MDBNavItem>
-                <MDBDropdown>
-                  <MDBDropdownToggle nav caret>
-                    <div className="d-none d-md-inline">About</div>
-                  </MDBDropdownToggle>
-                  <MDBDropdownMenu right>
-                    <MDBDropdownItem href="#!">Contact</MDBDropdownItem>
-                    <MDBDropdownItem href="#!">Articles</MDBDropdownItem>
-                    <MDBDropdownItem href="#!">Testimonials</MDBDropdownItem>
-                  </MDBDropdownMenu>
-                </MDBDropdown>
-              </MDBNavItem>
+              { 
+                links.map(item => {
+                  console.log(item.type);
+                  if(item.type == 'dropdown') {
+                    return (
+                      <MDBNavItem key={item.name + "_dropdown"}>
+                        <MDBDropdown>
+                          <MDBDropdownToggle nav caret>
+                            <div className="d-inline">{item.name}</div>
+                          </MDBDropdownToggle>
+                          <MDBDropdownMenu key={item.name + "_link"}>
+                            {item.items.map(link => <MDBDropdownItem key={link.name + "_link"} href={link.url}>{link.name}</MDBDropdownItem>)}
+                          </MDBDropdownMenu>
+                        </MDBDropdown>
+                      </MDBNavItem>
+                    )
+                  }
+                  else 
+                    return(<CustomNavLink key={item.name + "_link"} to={item.url}>{item.name}</CustomNavLink>)
+                })
+              }
             </MDBNavbarNav>
             <MDBNavbarNav right>
               <div className="d-flex align-items-center">
-                <CustomNavLink to="#!">
-                  <MDBIcon fab icon="facebook" className="ml-1" />
-                </CustomNavLink>
-                <CustomNavLink to="#!">
-                  <MDBIcon fab icon="twitter" className="ml-1" />
-                </CustomNavLink>
-                <CustomNavLink to="#!">
-                  <MDBIcon fab icon="linkedin" className="ml-1" />
-                </CustomNavLink>
+                {
+                  socials.map(item => (
+                    <CustomNavLink key={item.icon + "_link"} to={item.url}>
+                      <MDBIcon fab icon={item.icon} className="ml-1" />
+                    </CustomNavLink>
+                  ))
+                }
               </div>
             </MDBNavbarNav>
           </MDBCollapse>

@@ -1,9 +1,34 @@
 module.exports = {
   siteMetadata: {
-    title: 'MDB React Starter',
-    description: 'MDB React starter for material design landing page',
-    siteUrl: 'https://gatsby-starter.mdbootstrap.com',
-    author: 'anna-morawska',
+    title: 'Meteo Farneto',
+    description: 'Stazione di rilevamento metereologico situata a Farneto di Castellarano (RE)',
+    siteUrl: 'https://rebottini.it',
+    author: 'Riccardo Rebottini',
+    menuLinks: [
+      { type: 'link', name: 'Home', url: '/' },
+      {
+        type: 'dropdown',
+        name: 'Meteo',
+        items: [
+          { type: 'link', name: 'Previsioni', url: '/previsioni' },
+          { type: 'link', name: 'Grafici', url: '/grafici' },
+          { type: 'link', name: 'Glossario', url: '/glossario' }
+        ]
+      },
+      {
+        type: 'dropdown',
+        name: 'Immagini',
+        items: [
+          { type: 'link', name: 'Webcam', url: '/webcam' },
+          { type: 'link', name: 'Vista da Satellite', url: '/satellite' }
+        ]
+      },
+      { type: 'link', name: 'Qualità dell\'aria', url: '/qualita_aria' }
+    ],
+    menuSocials: [
+      { icon: 'facebook', url: '#!' },
+      { icon: 'twitter', url: '#!' }
+    ]
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
