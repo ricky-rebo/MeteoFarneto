@@ -1,25 +1,26 @@
+:root {
+  --col-primary: #00796B;
+  --col-dark: #005e53;
+  --col-light: #009181;
+
+  --col-bg: #F0F0F0;
+  
+  --col-text: #FEFEFE;
+  --col-contrast: #393939;
+}
+
+
 .navbar.navbar-dark{
   margin: 0;
-  background-image: linear-gradient(90deg, #3c0472, #5D00B7);
+  background: var(--col-primary) !important;
 }
 
 .page-footer {
   margin: 0;
-  background-image: linear-gradient(-90deg, #3c0472, #5D00B7);
+  background: var(--col-primary) !important;
 }
 
-.carousel {
-    position: absolute;
-    top: 0;
-    z-index: -100;
-    height: 100vh;
-    min-width: 100%;
-}
 
-.carousel img {
-    min-height: 100vh;
-    object-fit: cover;
-}
 
 #cardSection{
     background-color: rgba(221, 221, 221, 0.5);

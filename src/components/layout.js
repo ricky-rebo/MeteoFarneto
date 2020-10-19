@@ -8,29 +8,7 @@ import "./layout.css"
 const Layout = ({ children }) => (
      <>
         <StaticQuery
-          query={graphql`
-            query SiteQuery {
-              site {
-                siteMetadata {
-                  title
-                  menuSocials {
-                    icon
-                    url
-                  }
-                  menuLinks {
-                    type
-                    name
-                    url
-                    items {
-                      type
-                      name
-                      url
-                    }
-                  } 
-                }
-              }
-            }          
-          `}
+          query={navQuery}
           render={data => (
             <Navbar
               title={data.site.siteMetadata.title}
@@ -49,3 +27,28 @@ Layout.propTypes = {
 }
 
 export default Layout
+
+
+const navQuery = graphql`
+  query SiteQuery {
+    site {
+      siteMetadata {
+        title
+        menuSocials {
+          icon
+          url
+        }
+        menuLinks {
+          type
+          name
+          url
+          items {
+            type
+            name
+            url
+          }
+        } 
+      }
+    }
+  }          
+`;
