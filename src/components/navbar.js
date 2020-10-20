@@ -38,7 +38,6 @@ class NavbarPage extends Component {
               <MDBNavbarNav left>
                 { 
                   links.map(item => {
-                    console.log(item.type);
                     if(item.type == 'dropdown') {
                       return (
                         <MDBNavItem key={item.name + "_dropdown"}>
