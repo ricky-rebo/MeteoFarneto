@@ -3,7 +3,8 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import AboutSection from '../components/aboutSection'
 import Card from '../components/card'
-import { MDBRow } from 'mdbreact'
+import { MDBContainer, MDBRow } from 'mdbreact'
+import WebcamImage from '../components/webcamImage';
 
 class App extends Component {
   render() {
@@ -23,6 +24,10 @@ class App extends Component {
             </MDBRow>
           </section>
         </main>
+        <MDBContainer>
+          <WebcamImage />
+        </MDBContainer>
+        
       </Layout>
     );
   }
