@@ -6,6 +6,7 @@ import {
 import { Link } from 'gatsby';
 import CustomNavLink from './customLink';
 import logoImage from "../images/new_logo.png";
+import headerImage from "../images/header.jpg";
 
 class NavbarPage extends Component {
   state = {
@@ -21,13 +22,10 @@ class NavbarPage extends Component {
 
     return (
       <>
-        <MDBContainer className="py-5">
-          <MDBRow>
-            <MDBCol>
-              Header
-            </MDBCol>
-          </MDBRow>
-        </MDBContainer>
+        <div className="d-none d-md-block">
+          <img className="fluid" src={headerImage} width="100%" />
+        </div>
+        
 
         <MDBNavbar color="indigo" dark expand="md" className="sticky-top">
           <MDBContainer>
