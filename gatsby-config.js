@@ -51,7 +51,7 @@ module.exports = {
         background_color: `#4B5EB8`,
         theme_color: `#68008C`,
         display: `standalone`,
-        icon: `${__dirname}/src/images/mdb-react-small.png`, // This path is relative to the root of the site.
+        icon: `${__dirname}/src/images/new_logo.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
