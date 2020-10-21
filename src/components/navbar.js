@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import {
-  MDBContainer, MDBNavbar,  MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse, MDBFormInline,
+  MDBContainer, MDBNavbar,  MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse, 
   MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem, MDBIcon, MDBRow, MDBCol
 } from "mdbreact";
 import { Link } from 'gatsby';
 import CustomNavLink from './customLink';
-import { ReactComponent as Logo } from "../images/light-bulb.svg";
+import logoImage from "../images/new_logo.png";
 
 class NavbarPage extends Component {
   state = {
@@ -28,9 +28,10 @@ class NavbarPage extends Component {
             </MDBCol>
           </MDBRow>
         </MDBContainer>
+
         <MDBNavbar color="indigo" dark expand="md" className="sticky-top">
           <MDBContainer>
-            <Logo  />
+            <img src={logoImage} width="50" />
             <Link to="/" className="navbar-brand">
               <strong className="ml-3 white-text">{title}</strong></Link>
             <MDBNavbarToggler name="navbar-toggler" onClick={this.toggleCollapse} />
