@@ -1,0 +1,642 @@
+[
+	{
+		"name":"ACQUA PRECIPITABILE",
+		"description":"Quantità massima di pioggia che può cadere, se vengono soddisfatte le condizioni favorevoli per la precipitazione. E’ definita come lo spessore di acqua liquida, misurata in centimetri o in pollici, risultante dalla condensazione di tutto il vapore acqueo contenuto in una colonna verticale di atmosfera su un’area di un centimetro quadrato."
+	},
+	{
+		"name":"ADIABATICI, PROCESSI",
+		"description":"Processi che avvengono senza scambio di calore con l’esterno."
+	},
+	{
+		"name":"AEROLOGIA",
+		"description":"Branca della meteorologia che studia le proprietà fisiche dell’aria mediante i dati della libera atmosfera, ottenuti dai sondaggi in quota."
+	},
+	{
+		"name":"ALBEDO",
+		"description":"Frazione di radiazione solare che si perde nello spazio per riflessione da una superficie qualsiasi."
+	},
+	{
+		"name":"ALISEI",
+		"description":"Venti al suolo che soffiano continuamente tra circa 5° e 30° di latitudine. Furono regolarmente utilizzati per la navigazione a a vela. Sono dovuti allo spostamento dell’aria dalle fasce di alta pressione subtropicali verso la fascia equatoriale delle basse pressioni. La forza di Coriolis devia questo spostamento verso destra nell’emisfero nord e verso sinistra nell’emisfero sud; gli Alisei spirano quindi da nord-est a nord dell’equatore e da sud-est al sud. La quota che essi raggiungono non supera di molto 1-2 km, dove si trova un’inversione del flusso. Nello schema semplificato di circolazione generale dell’atmosfera, gli Alisei rappresentano il ramo che fa fluire aria dalle latitudini sub-tropicali verso la fascia equatoriale. Tale flusso è compensato in quota dai contralisei."
+	},
+	{
+		"name":"ALTEZZA",
+		"description":"Distanza verticale tra una superficie orizzontale o un punto dello spazio atmosferico ed una superficie orizzontale di riferimento."
+	},
+	{
+		"name":"ALTITUDINE",
+		"description":"Distanza verticale tra una superficie orizzontale o un punto dello spazio atmosferico e il livello medio del mare (lmdm)."
+	},
+	{
+		"name":"ANTICICLONE",
+		"description":"Zona di alta pressione caratterizzata da isobare generalmente chiuse e con valori di pressione decrescenti dal centro alla periferia."
+	},
+	{
+		"name":"ANTICICLONE ATLANTICO",
+		"description":"Anticiclone dinamico. E’ noto soprattutto col nome di anticiclone delle Azzorre, in quanto la sua posizione media si trova alla latitudine di queste isole."
+	},
+	{
+		"name":"ANTICICLONE CANADESE",
+		"description":"Anticiclone continentale termico o semipermanente che si forma d’inverno sul Nord America."
+	},
+	{
+		"name":"ANTICICLONE CONTINENTALI INVERNALI",
+		"description":"Anticicloni semipermanenti. Fra tutti gli Anticicloni, sono i maggiori generatori di nebbie. Queste sono persistenti ed occupano in particolar modo le regioni centrali dell’area anticiclonica e possono durare anche parecchie settimane."
+	},
+	{
+		"name":"ANTICICLONI DI BLOCCO",
+		"description":"Anticicloni così definiti perché ostacolano o rovesciano per un certo tempo i venti prevalenti occidentali delle medie latitudini; essi sono particolarmente frequenti sopra la Siberia di NE, l’Alasca, la Groenlandia settentrionale e la Scandinavia, dove il loro sviluppo può spesso essere spiegato come una conseguenza dinamica della curvatura del limite termico tra l’acqua calda oceanica portatasi alle alte latitudini e una coltre di neve persistente sul continente a est e a sud-est."
+	},
+	{
+		"name":"ANTICICLONI PERMANENTI O DINAMICI",
+		"description":"Anticicloni della fascia subtropicale. Sono chiamati anche anticicloni dinamici o stazionari. Devono la loro stazionarietà al fatto che sono continuamente alimentati in qualunque periodo dell’anno dalla circolazione intertropicale. Presentano una posizione geografica che oscilla fra il 25° e il 30° parallelo di latitudine N e S. Il corpo di questi Anticicloni. è costituito da aria tropicale, è molto massiccio, occupa tutta la troposfera e talvolta penetra anche nella bassa stratosfera."
+	},
+	{
+		"name":"ANTICICLONI SEMIPERMANENTI O TERMICI",
+		"description":"Detti anche termici o stagionali. Sono poco mobili e si formano d’inverno sui continenti raffreddati delle medie e delle alte latitudini (specialmente sulle grandi estensioni continentali del Nord America e dell’Asia). Gli strati d’aria sovrastanti queste regioni, si raffreddano sia per contatto con il suolo sia per irraggiamento diretto e, diventando in questo modo specificamente più pesanti, discendono dando luogo alla formazione di aree anticicloniche. D’estate questi Anticicloni, a causa del riscaldamento dei continenti, svaniscono o presentano un campo barico relativamente alto o quasi livellato e quindi privo di gradienti. I più notevoli Anticicloni Semipermanenti invernali sono quelli del continente asiatico, che con un possente promontorio si estende fino alla Siberia e alla Russia (chiamato pertanto da noi anche anticiclone siberiano o russo), e quello del continente americano, con centro sul Canada, detto anticiclone canadese."
+	},
+	{
+		"name":"ANTICICLONI SUBTROPICALI",
+		"description":"Anticicloni permanenti (detti anche dinamici o stazionari). Situati prevalentemente sugli oceani Atlantico, Pacifico ed Indiano, devono la loro origine alla circolazione intertropicale. Il minor riscaldamento degli oceani e il minor attrito tra superficie marina e flusso d’aria, rispetto alle aree continentali, rende la divergenza così piccola che le correnti si dispongono quasi parallele alle isobare impedendo la defluenza dell’aria dalla parte centrale dell’area anticiclonica e mantenendo così la sua intensità. Hanno una tropopausa molto alta ed una stratosfera fredda. Inoltre, nei loro strati più bassi sono alimentati dall’aria polare degli anticicloni di chiusura dei sistemi ciclonici del fronte tropicale. Raggiunti i tropici, l’aria polare si trasforma gradualmente in aria tropicale. Gli Anticicloni Subtropicali rivestono una grande importanza nell’evoluzione del tempo alle latitudini temperate."
+	},
+	{
+		"name":"ARIA ARTICA",
+		"description":"Aria proveniente dal mar glaciale artico. E’ sempre una massa d’aria fredda, dato che è l’aria più fredda che conosciamo."
+	},
+	{
+		"name":"ARIA POLARE",
+		"description":"Aria proveniente dalle regioni artiche e subartiche dell’emisfero nord e dalle regioni antartiche e sub-antartiche dell’emisfero sud. Può assumere il ruolo di massa fredda o di massa calda a seconda della sua origine e secondo la stagione."
+	},
+	{
+		"name":"ARIA SECCA",
+		"description":"Aria alla quale è stato tolto il vapore acqueo. Generalmente si dice che l’aria è secca quando l’umidità relativa è bassa."
+	},
+	{
+		"name":"ARIA TROPICALE",
+		"description":"Aria originaria delle zone degli alisei di entrambi gli emisferi, limitate verso il polo dalla fascia delle alte subtropicali. Per le nostre latitudini, è sempre una massa calda. Per contro, a latitudini più basse, può assumere il ruolo di massa fredda in confronto all’aria equatoriale."
+	},
+	{
+		"name":"ARIA UMIDA",
+		"description":"Si dice generalmente che l’aria è umida quando l’umidità relativa è alta."
+	},
+	{
+		"name":"ATMOSFERA  (1/2)",
+		"description":"Fluido gassoso che, soggetto alla forza di attrazione della Terra, l’avvolge ed è con essa solidale nei suoi movimenti di rivoluzione e rotazione, per i quali è anche sottoposta alla forza centrifuga."
+	},
+	{
+		"name":"ATMOSFERA  (2/2)",
+		"description":"Unità di misura della pressione, utilizzata soprattutto nell’industria. Equivale ad 1 kg per cm quadrato. Corrisponde quasi alla pressione atmosferica, da cui il nome."
+	},
+	{
+		"name":"AURORE BOREALI",
+		"description":"Si producono a quote comprese tra 700 e 1000 km e sono dovute all’arrivo nell’atmosfera terrestre delle regioni polari di particele ionizzate emesse dal Sole e la cui traiettoria viene influenzata dal campo magnetico terrestre."
+	},
+	{
+		"name":"AVVEZIONE",
+		"description":"Sostituzione di uno più strati della colonna d’aria preesistente (in deflusso) con aria (in afflusso) più fredda o più calda. L’Avvezione è il maggior responsabile delle variazioni locali di pressione, rispetto ai movimenti verticali ed alla convergenza o divergenza."
+	},
+	{
+		"name":"BAR",
+		"description":"Unità di misura della pressione; normalmente se ne usa il sottomultiplo, il millibar (mbar)."
+	},
+	{
+		"name":"BAROCLINO (sistema)",
+		"description":"Atmosfera nella quale le isobare sono inclinate rispetto alle isoterme e le altezze isobariche si presentano più basse e vicine tra loro dalla parte dell’aria fredda, più alte e più lontane tra loro dalla parte dell’aria calda."
+	},
+	{
+		"name":"BAROTROPICO (sistema)",
+		"description":"Condizione atmosferica solo ideale nella quale le isobare sono parallele alla superficie terrestre."
+	},
+	{
+		"name":"BAROMETRO",
+		"description":"Strumento che misura la pressione atmosferica."
+	},
+	{
+		"name":"BAROSFERA",
+		"description":"E’ la parte più bassa dell’atmosfera compresa tra il suolo e 8000 metri di quota."
+	},
+	{
+		"name":"BASSA PRESSIONE",
+		"description":"Porzione di atmosfera caratterizzata da bassi valori barici intorno alla quale i venti ruotano in senso antiorario nell’emisfero settentrionale e in senso orario in quello meridionale. In cartografia è rappresentato da la lettera ‘B’ (‘L’ in inglese)."
+	},
+	{
+		"name":"BEAUFORT (scala di)",
+		"description":"Classificazione che suddivide i venti in 12 gradi a seconda della loro velocità."
+	},
+	{
+		"name":"BOLAM",
+		"description":"(Bologna Limited Area Model). Modello ad area limitata sviluppato presso il centro ISAO-CNR di Bologna, nelle due versioni a differente risoluzione spaziale in cui questo modello risulta operativo presso il Centro Meteo-Idrologico della Regione Liguria."
+	},
+	{
+		"name":"BORA, (PORTA DELLA)",
+		"description":"Una delle vie di accesso diretto al mare mediterraneo per le masse d’aria fredda provenienti dai quadranti settentrionali. Altre vie d’accesso sono la porta di Gibilterra, la valle del Rodano e della Garonna."
+	},
+	{
+		"name":"BORA",
+		"description":"Vento catabatico proveniente dalle Alpi Giulie e caratterizzato da forti raffiche capaci di raggiungere i 150-160km/h. E’ particolarmente frequente durante la stagione invernale e interessa principalmente l’Istria settentrionale e Trieste; quando è particolarmente inteso può giungere fino a Venezia e Chioggia."
+	},
+	{
+		"name":"BREZZA",
+		"description":"Vento periodico provocato dalla differenza di pressione tra la terra ferma e le grandi distese d’acqua (laghi e mari). Il gradiente barico è causato dallo scarto termico che si genera tra acqua e suolo, quest’ultimo, infatti, tende a riscaldarsi e raffreddarsi molto più velocemente rispetto all’acqua."
+	},
+	{
+		"name":"BRINA",
+		"description":"Deposito di ghiaccio dall’aspetto cristallino, generalmente a forma di scaglie, aghi, piume o ventagliraffreddarsi molto più velocemente rispetto all’acqua."
+	},
+	{
+		"name":"BRINATA",
+		"description":"Fenomeno che implica il congelamento cristallino della rugiada a seguito dell’abbassamento al di sotto dello zero della temperatura."
+	},
+	{
+		"name":"CALIGINE",
+		"description":"Litometeora formata dalla sospensione nell’atmosfera di particelle secche estremamente piccole, invisibili ad occhio nudo, la cui concentrazione è sufficiente a dare all’aria un aspetto opalescente."
+	},
+	{
+		"name":"CALIGINE DA SABBIA",
+		"description":"Litometeora formata dalla sospensione nell’atmosfera di polvere o di minuti granuli di sabbia sollevati dal suolo prima del momento dell’osservazione da una tempesta di polvere o di sabbia."
+	},
+	{
+		"name":"CALMA DI VENTO",
+		"description":"Quando la velocità del vento è inferiore a 1 nodo (1 nodo = 1 miglio nautico all’ora = 1,852 km/h)."
+	},
+	{
+		"name":"CAMPO BARICO AL SUOLO",
+		"description":"In pratica, si traccia riportando, su una carta geografica, in corrispondenza delle varie stazioni meteorologiche, il valore della pressione ridotto al livello del mare ed unendo con una linea tutti i punti aventi la medesima pressione."
+	},
+	{
+		"name":"CAPANNINA METEOROLOGICA",
+		"description":"E’ stata concepita per la più idonea sistemazione degli strumenti destinati alla misura ed alla registrazione della temperatura dell’aria e delle grandezze ad essa collegate (umidità relativa, temperatura del punto di rugiada, tensione di vapore,ecc.)."
+	},
+	{
+		"name":"CARTE SINOTTICHE",
+		"description":"Carte così denominate perché riferite alle osservazione effettuate nello stesso tempo da tutte le stazioni di una rete meteorologica mondiale."
+	},
+	{
+		"name":"CEILING",
+		"description":"Altezza della base delle nubi più basse, quando la base è al di sotto di 1500 metri o al di sotto dell’altitudine minima di settore più elevata, se quest’ultima è superiore a 1500 metri, e quando le nubi coprono più della metà del cielo."
+	},
+	{
+		"name":"CICLOGENESI",
+		"description":"Processo che porta alla formazione di un minimo di pressione. Perché abbia inizio una ciclogenesi, si deve avere divergenza orizzontale in quota, con rimozione di più aria di quanta se ne accumuli per convergenza orizzontale al suolo."
+	},
+	{
+		"name":"CICLONE",
+		"description":"Zona di bassa pressione con isobare generalmente chiuse e valori di pressione crescenti dal centro alla periferia."
+	},
+	{
+		"name":"CICLONE EXTRATROPICALE",
+		"description":"Cicloni che nascono da ondulazioni del fronte di separazione tra aria di origine polare e aria di origine tropicale. Le ondulazioni alla base dei cicloni si formano a seguito dello scontro di masse d’aria calda e fredda aventi stessa direttrice ma senso opposto; una volta che l’aria fredda si è incuneata al di sotto di quella calda comincia il processo che porta all’approfondimento del vortice."
+	},
+	{
+		"name":"CICLONE TROPICALE",
+		"description":"Cicloni che si sviluppano tra il 5% e il 20% parallelo N/S. Devono la loro genesi al calore latente di condensazione fornito dalle masse d’aria calda in sollevamento dalle grandi distese oceaniche. Si ipotizza, inoltre, che concorrano al loro sviluppo anche gli Alisei. I cicloni tropicali si dividono tre macrotipi Depressione tropicale (venti minori di 63km/h), Tempesta tropicale (venti compresi tra 63 e 118km/h) e Uragano (venti superiori ai 118km/h)."
+	},
+	{
+		"name":"CIRCOLAZIONE GENERALE DELL’ATMOSFERA",
+		"description":"Quadro generale del movimento dell’aria, così come emerge da uno studio dei valori medi dei venti durante lunghi periodi di tempo."
+	},
+	{
+		"name":"CIRCOLAZIONE MERIDIANA",
+		"description":"Circolazione teorica dell’aria che s’instaurerebbe tra equatore e poli qualora la Terra non ruotasse intorno al proprio asse e possedesse una superficie omogenea. Con queste premesse, lo scambio termico tra regioni calde e regione fredde avrebbe luogo in modo diretto costituendo una circolazione chiusa, con aria che s’innalza all’equatore e che ridiscende ai poli."
+	},
+	{
+		"name":"CLIMA",
+		"description":"Insieme dei fenomeni meteorologici caratterizzanti lo stato medio dell’atmosfera in un punto della superficie terrestre. Tenendo presenti le influenze del C. sulla vita, può anche definirsi il complesso delle condizioni atmosferiche che rendono una regione più o meno adatta alla evoluzione delle varie specie vegetali e animali e in particolare dell’uomo. Gli elementi che lo costituiscono sono l’umidità, la temperatura, i venti con il loro diverso coordinamento e avvicendamento; tali elementi , a loro volta, dipendono da fattori più complessi, quali la latitudine, l’altitudine, la distanza dal mare, ecc."
+	},
+	{
+		"name":"CONDENSAZIONE DEL VAPORE ACQUEO",
+		"description":"La condensazione del vapore acqueo nell’aria è conseguenza del raffreddamento che essa subisce nel suo movimento verticale. Questo sollevamento può avere origine termica (sollevamento convettivo) oppure dinamica (sollevamento forzato)."
+	},
+	{
+		"name":"CONDUZIONE",
+		"description":"Uno dei meccanismi di propagazione del calore. Il calore viene trasferito mediante la collisione fra le molecole in rapido movimento che caratterizzano l’estremità di un corpo surriscaldato, e le molecole più lente di un corpo freddo. Parte dell’energia cinetica delle molecole più veloci passa alle molecole più lente e il risultato di collisioni successive è un flusso di calore attraverso il corpo. Solidi, liquidi e gas sono tutti conduttori di calore anche se il potere conduttivo dei gas è inferiore, perché le molecole sono relativamente distanti e quindi interagiscono con minore frequenza rispetto a solidi e liquidi. Essendo l’aria una cattiva conduttrice di calore, il riscaldamento dell’atmosfera per conduzione molecolare si arresta ai primi strati, cioè a quelli a contatto immediato con il suolo. Ad esempio, nel campo delle temperature termodinamiche, la grandezza che meglio risponde a tali requisiti è la temperatura pseudo potenziale."
+	},
+	{
+		"name":"COMPLESSO, SISTEMA",
+		"description":"Sistema costituito da cumulonembi agglomerati in una struttura con periodo di vita di circa 6 ore e superficie di diametro intorno ai cento chilometri."
+	},
+	{
+		"name":"CONVEZIONE",
+		"description":"Uno dei meccanismi di propagazione del calore, per cui un certo volume di fluido a temperatura elevata (gas o liquido) si sposta da una regione all’altra trasferendo la sua energia interna. Può essere libera, forzata, intensa (deep convection), leggera (shallow convection), o limitata alla media troposfera (mid-level convection). Nei modelli numerici di previsione, si tiene conto della convezione (in quanto fenomeno sub-grid) attraverso la sua parametrizzazione, a meno che il passo di griglia non scenda sotto il paio di chilometri. In tal caso, i processi convettivi possono essere rappresentati esplicitamente dal modello. E’ maggiore nei bassi strati atmosferici, dove risente maggiormente della forza di attrazione, mentre va progressivamente diminuendo verso l’alto."
+	},
+	{
+		"name":"CORIOLIS (forza di)",
+		"description":"Forza che tende a deviare le masse d’aria che si muovono dalle zone di alta pressione a quelle di bassa pressione. Essa fa sì che i venti anzichè tagliare perpendicolarmente le isobare tendano a scorrervi quasi parallelamente."
+	},
+	{
+		"name":"CUT OFF (lett.: tagliato fuori)",
+		"description":"Processo che indica il quasi totale distacco di un vortice depressionario dalla corrente a getto che lo sostiene. Nel Mediterraneo i cut off possono isolarsi ed approfondirsi come ‘ciclogenesi’"
+	},
+	{
+		"name":"DEPRESSIONE",
+		"description":"Regione della superficie terrestre, o di una superficie di livello, su cui la pressione atmosferica è bassa rispetto alle zone circostanti, con un minimo di pressione all’incirca nella parte centrale della regione stessa. Caratterizzata da isobare chiuse, approssimativamente concentriche, e da circolazione spiraliforme del vento, convergente dalla periferia verso il centro (in senso antiorario nell’emisfero boreale, orario nell’australe)."
+	},
+	{
+		"name":"DOWNBURST",
+		"description":"Forte raffica discendente che giunta vicino al suolo si espande con grande violenza generando venti estremamente pericolosi. E’ generalmente associato alle nubi temporalesche."
+	},
+	{
+		"name":"EBOLLIZIONE",
+		"description":"Si raggiunge quando la pressione di vapore diventa uguale alla pressione atmosferica: si ha un’evaporazione molto intensa, con formazione di bolle ascendenti di vapore all’interno del liquido, che vengono a liberarsi in superficie. Poiché la pressione atmosferica diminuisce con l’altitudine, la temperatura di E. è sempre più bassa man mano che ci si innalza."
+	},
+	{
+		"name":"ECMWF",
+		"description":"European Center for Medium range Weather Forecasts. Centro Europeo per le previsioni a medio termine. Fu fondato nel 1975 sotto l’impulso dei servizi meteorologici dei Paesi membri della Comunità Economica Europea. Ha sede a Reading, cittadina a circa 40 km ad ovest di Londra. Alla costituzione ed alla gestione del Centro parteciparono 17 nazioni europee. Il Centro divenne operativo nel 1978 e migliorando la sua produzione costantemente diffonde ogni giorno ai Paesi membri centinaia di campi previsti fino a 7 giorni di scadenza e campi mediati dal sesto al decimo giorno."
+	},
+	{
+		"name":"ECOMET",
+		"description":"Accordo stipulato fra i Servizi Meteorologici europei riguardante la distribuzione dei datie dei prodotti meteorologici. Il Servizio Meteorologico dell’Aeronautica Militare Italiana ha sottoscritto l’accordo ECOMET nel novembre 1996."
+	},
+	{
+		"name":"ESCURSIONE TERMICA",
+		"description":"Differenza tra la temperatura massima e la temperatura minima rilevate in uno stesso giorno e nel medesimo punto."
+	},
+	{
+		"name":"EVAPORAZIONE",
+		"description":"Passaggio di stato della materia dallo stato liquido a quello aeriforme. Il processo è esotermico poichè sottrae calore al sistema ed è alla base della diminuzione di temperatura durante le precipitazioni atmosferiche."
+	},
+	{
+		"name":"FENOMENI CONVETTIVI",
+		"description":"I Fenomeni Convettivi di maggiore rilevanza sono stati classificati in un certo numero di famiglie: Fenomeni Convettivi isolati e sistemi convettivi organizzati (vedi)."
+	},
+	{
+		"name":"FENOMENI CONVETTIVI ISOLATI",
+		"description":"Sono caratterizzati dalla presenza di celle convettive isolate di breve durata e non interagenti tra loro, generate da instabilità locale della colonna atmosferica. La cella convettiva tipica è descritta come una regione di convergenza al suolo e di forti correnti ascensionali ('updraft', almeno 10 m/s), con una sezione orizzontale dell’ordine dei 10-100 km2, e una vita media di 30-50 minuti."
+	},
+	{
+		"name":"FENOMENI SUB-GRID",
+		"description":"(Previsione numerica). Fenomeni fisici (come la convezione, i processi radiativi, ecc.) non risolti dalla griglia e che pertanto non possono essere inclusi esplicitamente nei modelli numerici di previsione. Poiché questi fenomeni (agenti su scale dell’ordine delle decine di chilometri) influenzano in larga misura i flussi su larga scala rifornendoli, ad esempio, di grandi quantità di vapor acqueo, calore e quantità di moto, è necessario tenerne conto attraverso la parametrizzazione. Incrementando la risoluzione, alcuni processi possono, almeno in parte, essere rappresentati esplicitamente (ad esempio, la convezione)."
+	},
+	{
+		"name":"FISICA DELL’ATMOSFERA",
+		"description":"Disciplina scientifica che si occupa dello studio generale dell’atmosfera, dei suoi elementi costitutivi e dei suoi particolari fenomeni."
+	},
+	{
+		"name":"FOEHN o SUBSIDENZA OROGRAFICA",
+		"description":"Fenomeno caratteristico dovuto a correnti d’aria che incontrano un ostacolo orografico. Si manifesta nel lato sottovento della barriera orografica con scorrimento discendente dell’aria, riscaldamento dinamico e diminuzione dell’umidità relativa. E’ caratterizzato da vento alquanto caldo e a raffiche. Sospensione nell’atmosfera di goccioline di acqua microscopiche, o di particelle igroscopiche umide, che riducono la visibilità, ma non al di sotto di 1 km. Le goccioline sono più piccole e più disperse che nel caso della nebbia che, peraltro, ha la stessa costituzione. La Foehn ha un aspetto grigiastro."
+	},
+	{
+		"name":"FORZA D’ATTRITO",
+		"description":"Forza che, al suolo (ed in misura decrescente fino a circa 1000 metri di quota), costringe il vento a tagliare le isobare facendolo convergere nelle zone di bassa pressione e divergere da quelle di alta. Si manifesta negli strati bassi dell’atmosfera per il contatto con la superficie terrestre oppure nei vari strati sovrapposti d’aria che scorrono gli uni sugli altri a differenti velocità per la turbolenza."
+	},
+	{
+		"name":"FRONTE",
+		"description":"Superficie di separazione tra due masse d’aria. E’ costituito da una sottile zona di transizione, e non da una superficie netta, che si estende orizzontalmente per 100 – 200 km o verticalmente per 1-3 km."
+	},
+	{
+		"name":"FRONTE CALDO",
+		"description":"E’ la superficie di separazione tra una massa d’aria calda avanzante su una certa zona, e una massa d’aria fredda che sta arretrando dalla zona stessa. In un Fronte Caldo, l’aria della massa calda sale rapidamente lungo la superficie frontale, tendendo a sovrapporsi a quella della massa fredda e raffreddandosi progressivamente; il vapore acqueo contenuto nell’aria calda si condensa, dando luogo a formazioni nuvolose e a precipitazioni."
+	},
+	{
+		"name":"FRONTE CALDO ATTIVO",
+		"description":"Tipo di fronte caldo in cui la componente del vento attraverso il fronte cresce perpendicolarmente al fronte con l’altezza; è accompagnato da nubi e precipitazioni."
+	},
+	{
+		"name":"FRONTE CALDO INATTIVO",
+		"description":"Si ha quando la velocità del vento, perpendicolarmente al fronte, decresce con l’altezza. E’ caratterizzato da cirri rotti (in quantità maggiore di 4/8) e da altocumuli."
+	},
+	{
+		"name":"FRONTE FREDDO",
+		"description":"E’ la superficie di separazione tra una massa d’aria fredda avanzante su una certa zona e una massa d’aria calda retrocedente sulla stessa zona. In un Fronte Freddo, l’aria della massa fredda tende ad insinuarsi sotto quella della massa calda, sollevandola violentemente. Il sollevamento dell’aria calda provoca lungo tutto il fronte la formazione di grandi sistemi nuvolosi, che possono essere fonti di precipitazioni, talvolta anche violente."
+	},
+	{
+		"name":"FRONTE FREDDO ATTIVO",
+		"description":"Tipo di fronte freddo in cui la componente del vento perpendicolarmente al fronte decresce con l’altezza attraverso il fronte. E’ accompagnato da una larga zona di nubi e precipitazioni avanti e dietro di esso, poiché l’aria al di sopra del fronte viene sollevata in alto. Relativamente al fronte, l’aria si muove a ritroso."
+	},
+	{
+		"name":"FRONTE OCCLUSO",
+		"description":"Fronte che si genera nella fase finale della vita di un ciclone; si ha quando la massa d’aria calda viene sollevata completamente da quella fredda in arrivo. Ciò comporta ancora nuvolosità estesa e precipitazioni ma la sorte della perturbazione è segnata."
+	},
+	{
+		"name":"FRONTI, TEORIA DEI",
+		"description":"Teoria elaborata dai meteorologi della scuola norvegese (particolarmente Bjerkness), che mette in evidenza l’esistenza dei fronti. E’ una teoria di importanza fondamentale per l’interpretazione e la previsione della maggior parte dei fenomeni meteorologici delle zone temperate."
+	},
+	{
+		"name":"FULMINE",
+		"description":"Scarica elettrica che si può generare tra nube e suolo e tra nube e nube. Il fattore principale che contribuisce alla genesi del fulmine è il gradiente elettrostatico tra sommità della nube temporalesca, la base della stessa e il suolo. Le particelle discendenti, più grosse, strappano elettroni (carica negativa) a quelle più piccole in sospensione creando così negatività alla base della nube e positività alla sua sommità. Quando la differenza elettrostatica raggiunge un determinato punto si forma la scarica elettrica. Il fulmine raggiunge il suolo quando questo presenta cariche prevalentemente positive."
+	},
+	{
+		"name":"GENOVA LOW",
+		"description":"Depressione mediterranea che si può formare a seguito di un intenso afflusso d’aria fredda dalla valle del Rodano (le più intense e strutturate) oppure durante transito di una saccatura."
+	},
+	{
+		"name":"GFS",
+		"description":"Global Forecast System; modello matematico americano a scala globale."
+	},
+	{
+		"name":"GEOPOTENZIALE",
+		"description":"E’ l’energia potenziale dell’unità di massa rispetto al livello del mare, ed è dato numericamente dal lavoro che occorrerebbe compiere per sollevare l’unità di massa dal livello del mare all’altezza a cui la massa si trova; si esprime in altezza geopotenziale."
+	},
+	{
+		"name":"GHIACCIO GRANULOSO o GALAVERNA",
+		"description":"Idrometeora formata da un deposito di ghiaccio costituito da granuli più o meno separati da inclusioni d’aria, eventualmente forniti di ramificazioni cristalline. Si forma e si sviluppa sulle superfici esposte al vento per congelamento rapido di minutissime goccioline sopraffuse di nebbia o di nube."
+	},
+	{
+		"name":"GRADIENTE BARICO VERTICALE",
+		"description":"Esprime la diminuzione della pressione al crescere dell’altezza, lungo la verticale."
+	},
+	{
+		"name":"GRADIENTE VERTICALE DI TEMPERATURA",
+		"description":"Variazione della temperatura per una differenza di livello di 100 metri. Si indica con la lettera greca minuscola gamma. Il gradiente medio della troposfera è di 0,56°C/100 m. Se la temperatura diminuisce, come avviene in generale con l’altezza, il gradiente è normale o positivo; se la temperatura non varia con l’altezza, il gradiente è nullo e se infine la temperatura aumenta con l’altezza, il gradiente è invertito o negativo."
+	},
+	{
+		"name":"GRAGNUOLA",
+		"description":"Granelli di neve rivestiti da un sottile strato di ghiaccio."
+	},
+	{
+		"name":"GRANDINE",
+		"description":"Caduta di globuli o pezzi di ghiaccio (chicchi), il cui diametro varia da 5 a 50 mm e talvolta anche più e che cadono sia separatamente sia agglomerati in pezzi irregolari più grossi."
+	},
+	{
+		"name":"GRANULI DI GHIACCIO",
+		"description":"Gocce di pioggia congelate, o fiocchi di neve quasi completamente fusi che si sono congelati di nuovo."
+	},
+	{
+		"name":"GRECALE",
+		"description":"Vento freddo proveniente da Nord Est. E’ particolarmente frequente in inverno e può portare maltempo lungo le regioni del medio basso versante adriatico."
+	},
+	{
+		"name":"GROPPI o COLPI DI VENTO",
+		"description":"Raffiche di vento più distanziate che si verificano nelle situazioni temporalesche o durante il passaggio di fronti freddi."
+	},
+	{
+		"name":"HEAT INDEX (indice di calore)",
+		"description":"Indice basato su una equazione empirica con il compito di descrivere quali siano le condizioni di temperatura e umidità più gradevoli per l’organismo umano."
+	},
+	{
+		"name":"IDROLOGIA",
+		"description":"Scienza che comprende tutte le applicazioni della meteorologia a problemi idrologici, dalla gestione delle risorse idriche alla progettazione delle opere idrauliche."
+	},
+	{
+		"name":"INDICIBIO CLIMATICI",
+		"description":"Indici numerici che trovano applicazione in biometeorologia e bioclimatologia medica. Esprimono una valutazione della condizione fisiologica umana (di benessere o di disagio) mediante formule matematiche, in relazione ad alcuni parametri meteorologici come temperatura, umidità relativa, vento, pressione atmosferica. I principali Indici Bioclimatici sono:- Indice di Scharlau- Indice di Thom- Wind chill- Heat Index- SSI- Humidex- Indice RSI- Temperature-Humidity Index (THI)- Indice T° equivalente."
+	},
+	{
+		"name":"INSTABILITA’",
+		"description":"Stato dell’atmosfera per cui una particella d’aria, comunque sollecitata verso l’alto o verso il basso, tende spontaneamente, anche cessando la sollecitazione, ad allontanarsi sempre più dal suo livello d’origine. L’Instabilità si presenta quando il gradiente termico verticale dell’atmosfera è maggiore della termovariazione che la particella subisce nel suo movimento, a causa dell’espansione, o compressione, adiabatica."
+	},
+	{
+		"name":"INVERSIONE DI TEMPERATURA",
+		"description":"Si ha allorché la temperatura, invece di diminuire, aumenta in funzione dell’altitudine. L’inversione termica al suolo si ha quando nelle notti serene, soprattutto invernali, il suolo si raffredda (per irraggiamento) sensibilmente; lo strato d’aria a contatto del suolo si raffredda anch’esso fortemente e più degli strati d’aria superiori: pertanto la temperatura dell’aria, a partire dal suolo, aumenta con la quota. L’inversione termica in quota si ha sovente negli anticicloni ed è causata dalla subsidenza. L’effetto di sbarramento provocato da questo tipo di inversione, blocca i movimenti ascendenti dell’aria, generando talvolta nubi ondulate (stratocumuli) e nubi lenticolari."
+	},
+	{
+		"name":"IRRAGGIAMENTO",
+		"description":"Uno dei meccanismi di propagazione del calore. Questa forma di trasmissione del calore dipende molto dalle condizioni del cielo e dell’aria: l’Irraggiamento è forte con cielo sereno ed aria secca, debole con cielo coperto ed aria umida."
+	},
+	{
+		"name":"ISOBARA",
+		"description":"linea che unisce punti aventi la stessa pressione."
+	},
+	{
+		"name":"ISOTERMA",
+		"description":"Sulle carte meteorologiche, è la linea che unisce i punti di uguale temperatura. Rappresenta l’intersezione di una superficie isotermica con la superficie terrestre."
+	},
+	{
+		"name":"JET STREAM (o corrente a getto)",
+		"description":"Flussi d’aria molto intensi che fluiscono tra i 10.000 e i 12.000 metri di quota. Si formano a seguito del contrasto tra le masse d’aria equatoriale e quelle polari, l’enorme differenza termica tra esse costituisce un forte gradiente barico che attiva intense correnti. Queste però non scorrono verticalmente ma fluiscono lungo il confine tra le due masse d’aria grazie alla forza deviante di Coriolis."
+	},
+	{
+		"name":"LAM",
+		"description":"(Previsione numerica). Modello numerico per la previsione meteorologica ad 'area limitata', o modello a 'mesoscala'. Le caratteristiche principali che distinguono questo modello dalla famiglia dei modelli a 'circolazione globale' (GCM, Global Circulation Model) consistono nelle simulazioni elaborate per un’area geografica limitata e nella risoluzione spaziale maggiore di quella dei GCM. Inoltre,la più accurata schematizzazione dell’orografiarispetto a quella dei GCM, dovrebbe consentire ai modelli ad area limitata una migliore simulazione degli eventi atmosferici."
+	},
+	{
+		"name":"LEGGE DI BOYLE",
+		"description":"La densità (cioè la massa per unità di volume) è proporzionale alla pressione. Questa relazione implica che nell’atmosfera la densità diminuisca con la quota: man mano che questa aumenta, la massa d’aria che rimane su un dato punto è sempre più piccola; pertanto la pressione esercitata è minore."
+	},
+	{
+		"name":"LIBECCIO",
+		"description":"Vento caldo, umido e foriero di precipitazioni proveniente da Sud Ovest. Il libeccio può essere particolarmente intenso lungo le regioni tirreniche e si lega il più delle volte a fronti atlantici."
+	},
+	{
+		"name":"LIFTED INDEX",
+		"description":"Indice che misura la stabilità dell’aria nella media troposfera, molto utile per prevedere i temporali; si esprime attraverso la differenza tra la temperatura osservata a livello di 500hp e quella raggiunta da una particella d’aria sollevata dal livello del mare alla quota dei 500hp. Con indici inferiori allo zero la probabilità di temporali è pressochè nulla, viceversa più l’indice è negativo più il fenomeno temporalesco è probabile e forte. Low Pressure, termine inglese che indica la nostra Bassa Pressione."
+	},
+	{
+		"name":"LP",
+		"description":"Low Pressure, termine inglese che indica la nostra Bassa Pressione."
+	},
+	{
+		"name":"MAESTRALE",
+		"description":"Vento freddo e generalmente secco proveniente da Nord Ovest. Normalmente è portatore di bel tempo lungo il versante tirrenico e al nord, può recare instabilità sul medio-basso Adriatico."
+	},
+	{
+		"name":"METEOROLOGIA",
+		"description":"Scienza che studia ed interpreta i fenomeni atmosferici cercando di prevederne intensità, distribuzione e tempistica."
+	},
+	{
+		"name":"METEOROPATIA",
+		"description":"Sindrome medica caratterizzata da una serie di disturbi psicofisici legati alle variazioni del tempo atmosferico."
+	},
+	{
+		"name":"MODELLO MATEMATICO",
+		"description":"Insieme di procedure matematico-informatiche finalizzate alla risoluzione di equazioni differenziali relative alle variabili meteorologiche. I modelli si dividono in due tipologie principali i modelli a scala globale (GCM) e i modelli a scala limitata (LAM)"
+	},
+	{
+		"name":"MODELLO SPETTRALE",
+		"description":"(Previsione numerica). Modello numerico di previsione in cui, per aggirare il problema del trattamento dei termini avvettivi lineari e per limitare il problema degli errori di troncamento, invece di rappresentare i campi orizzontali per mezzo di una discretizzazione a punti di griglia, li si decompone in componenti di Fourier (o in un’altra qualsiasi base ortonormale (per esempio, armoniche sferiche per un dominio sferico). Operando in tal modo, si può superare il problema della instabilità CFL ed aumentare il time step e si riduce l’errore di troncamento dovuto al calcolo delle derivate spaziali."
+	},
+	{
+		"name":"MONSONE",
+		"description":"Vento periodico tipico dell’Oceano Indiano che soffia dal subcontinente indiano fino al Giappone meridionale. Il monsone si divide in due tipologie monsone invernale (secco) e monsone estivo (umido). Il monsone invernale spira da nord verso sud a causa dell’elevata differenza termica tra l’oceano indiano e il continente asiatico; quello estivo, invece, soffia dall’oceano verso il continente poichè quest’ultimo è molto più caldo della superficie marina. Il monsone estivo è portatrice di ingenti piogge, specie sull’India nord orientale a causa dello sbarramento rappresentato dall’Himalaya."
+	},
+	{
+		"name":"NEBBIA",
+		"description":"Sospensione di minute gocce d’acqua nei bassi strati atmosferici che riduce la visibilità orizzontale a meno di un chilometro."
+	},
+	{
+		"name":"NEBBIA DA AVVEZIONE",
+		"description":"Nebbia che si forma a seguito della condensazione di aria umida e calda in scorrimento sopra una superficie fredda. La nebbia da avvezione è particolarmente frequente durante la stagione fredda in mare aperto e lungo le aree costiere italiane."
+	},
+	{
+		"name":"NEBBIA DA IRRAGGIAMENTO",
+		"description":"Nebbia che si forma grazie al raffreddamento del suolo durante le ore notturne. il suolo freddo provoca la condensazione dell’aria ad esso immediatamente sovrastante (a patto che non sia eccessivamente secca) per conduzione di calore."
+	},
+	{
+		"name":"NEVE",
+		"description":"Precipitazione atmosferica caratterizzata da cristalli di ghiaccio aventi forme esagonali o stellate che spesso di uniscono insieme costituendo il fiocco. Il processo fisico che genera la neve è la solidificazione che consiste nel passaggio dallo stato liquido a quello solido delle gocce d’acqua."
+	},
+	{
+		"name":"NOGAPS",
+		"description":"Navy Operational Global Atmospheric Prediction System. Modello numerico previsionale a scala globale."
+	},
+	{
+		"name":"NUBI",
+		"description":"Insieme di minute goccioline d’acqua e/o di cristalli di ghiaccio generato dalla condensazione del vapore fornito dalle grandi distese liquide. Le nubi si dividono in quattro tipologie principali nubi alte, nubi medie, nubi basse e nubi a sviluppo verticale."
+	},
+	{
+		"name":"NUBI A SVILUPPO VERTICALE",
+		"description":"Si collocano tra i 2000 e i 3000 metri ma la loro sommità può raggiungere i limiti della troposfera se il moto verticale è intenso. Il colore può variare dal grigio scuro al bianco candido. Fanno parte di questa categoria i cumuli e i cumulonembi. Se hanno un adeguato sviluppo verticale possono accompagnarsi a precipitazioni anche molto intense ma generalmente di breve durata."
+	},
+	{
+		"name":"NUBI ALTE",
+		"description":"Si presentano ad altitudini comprese tra i 6000 e i 12000 metri, sono formate da piccolissimi cristalli di ghiaccio di colore bianco, non generano ombre sul terreno e presentano spesso forme allungate. Fanno parte di questa categoria i cirri, i cirrostrati e i cirrocumuli. Non portano precipitazioni."
+	},
+	{
+		"name":"NUBI BASSE",
+		"description":"Si collocano tra i 2500-3000m e il livello del mare, sono formate da gocce d’acqua ma anche da cristalli di ghiaccio nella loro parte sommitale. Sono di colore grigio o biancastro ed assumono le forme più disparate. Fanno parte di questa categoria gli strati, gli stratocumuli e i nembostrati. Favoriscono precipitazioni estese, sia intense che deboli."
+	},
+	{
+		"name":"NUBI MEDIE",
+		"description":"Si presentano ad altitudini comprese tra i 3000 e i 6000m, sono formate sia da gocce d’acqua che da cristalli di ghiaccio. Possono essere di colore grigio o bianco ed hanno forma stratiforme e cumuliforme. Fanno parte di questa categoria gli altocumuli e gli altostrati. Favoriscono precipitazioni."
+	},
+	{
+		"name":"NUBIFRAGIO",
+		"description":"Precipitazione molto intensa che in un lasso di tempo relativamente breve (non inferiore ai 15 minuti) scarica ingenti quantità di pioggia provocando dissesti idrogeologici."
+	},
+	{
+		"name":"PRESSIONE ATMOSFERICA",
+		"description":"Pressione esercitata da una colonna d’aria su una data unità di superficie. Il valore della pressione varia in base all’altezza, alla latitudine, alla temperatura e all’umidità. Si misura in HP (Hecto Pascal) o in Millibar."
+	},
+	{
+		"name":"PROCESSI NON ADIABATICI",
+		"description":"Processi che avvengono con scambio di calore con l’esterno."
+	},
+	{
+		"name":"PROMONTORIO ANTICICLONICO",
+		"description":"Anticiclone dinamico caratterizzato da una forma cuneiforme o allungata generato dall’azione congiunta di due ondulazioni meridiane. Il promontorio anticiclonico ha normalmente breve durata e la sua intensità è direttamente proporzionale a quella dei cavi d’onda che ne inducono la formazione."
+	},
+	{
+		"name":"PUNTO DI RUGIADA",
+		"description":"Temperatura alla quale una massa d’aria umida diventerebbe satura. In pratica è la temperatura che costringe una massa d’aria a cedere la sua umidità sottoforma liquida o solida. Il punto di rugiada (o Dew Point) è tanto più basso quando minore è l’umidità dell’aria"
+	},
+	{
+		"name":"QBO",
+		"description":"Quasi Biennal Oscillation. Indice che mostra l’andamento dei venti equatoriali in stratosfera; questi ogni due anni circa (ecco spiegato il ‘quasi’ della sigla) cambiano la loro direzione da ovest verso est o da est verso ovest. Se la corrente tende a provenire da est (fase negativa) può indicare una minor intensità delle correnti occidentali con la conseguente accentuazione di scambi di tipo meridiano."
+	},
+	{
+		"name":"RADAR METEOROLOGICO",
+		"description":"Strumento che permette di rilevare ad ampia scala l’intensità e la quantità della precipitazione in fase di caduta. Il funzionamento del radar si basa sul principio della riflettività delle gocce d’acqua; queste, una volta ‘colpite’ dall’impulso elettromagnetico inviato, provocano la diffusione verso il radar di una piccola frazione dell’energia trasportata dall’impulso. Più gocce sono presenti e maggior impulsi di ritorno giungeranno al radar meteorologico."
+	},
+	{
+		"name":"RADIAZIONE SOLARE",
+		"description":"Energia che dal sole giunge sulla superficie terrestre. Sull’estremità dell’atmosfera questa corrisponde a 1384 Watt/m2 (costante solare), tuttavia quando arriva sulla superficie terrestre risulta attenuata del 75%. Questo perchè l’atmosfera filtra i raggi incidenti riflettendoli, assorbendoli o diffondendoli."
+	},
+	{
+		"name":"RADIAZIONE TERRESTRE",
+		"description":"Radiazione infrarossa emessa dalla superficie terrestre e, in parte, dall’Atmosfera."
+	},
+	{
+		"name":"ROSSBY (onde di)",
+		"description":"Moti atmosferici a larga scala generati dalla variazione della forza di Coriolis con la latitudine."
+	},
+	{
+		"name":"ROVESCIO",
+		"description":"Precipitazione di acqua allo stato liquido o solido, di breve durata e forte intensità; le gocce d’acqua o le particelle che costituiscono questa precipitazione sono più grosse ed hanno maggiore velocità di caduta che nelle precipitazioni ordinarie."
+	},
+	{
+		"name":"RUGIADA",
+		"description":"Gocce d’acqua che si formano e si depositano sulle superfici fredde e che sono dovute alla condensazione del vapore acqueo contenuto nell’aria limpida circostante; si forma generalmente nelle notti serene a causa del raffreddamento, per irraggiamento, delle superfici stesse."
+	},
+	{
+		"name":"SACCATURA",
+		"description":"Forma secondaria delle depressioni. Può presentarsi come una lingua o un prolungamento di bassa pressione o come una striscia di bassa pressione compresa fra due regioni di alta pressione. L’asse della Saccatura spesso coincide con un fronte, che delimita due masse d’aria di diverso stato fisico."
+	},
+	{
+		"name":"SATELLITI METEOROLOGICI",
+		"description":"(Telerilevamento). Satelliti artificiali che orbitano nello spazio ad altezze tali che il loro campo di vista abbracci aree di superficie terrestre inosservabili da nessun osservatorio terrestre fisso. Grazie ai Satelliti Meteorologici è possibile il rilevamento su ampia scala delle formazioni nuvolose associate ai fronti atmosferici e di quelle proprie di una depressione. E così pure sono bene individuate anche le nubi temporalesche dovute ad aria fredda in quota o a vortici freddi."
+	},
+	{
+		"name":"SCALA CENTIGRADA",
+		"description":"Ha due punti fissi, lo 'zero' e il 'cento', in corrispondenza di due ben determinati fenomeni fisici. Si attribuisce lo 'zero' al ghiaccio fondente, il 'cento' ai vapori dell’acqua in ebollizione. La scala viene suddivisa in 100 parti; si ottengono così 100 intervalli che si dicono gradi. I valori forniti si indicano con °C."
+	},
+	{
+		"name":"SCALA SINOTTICA",
+		"description":"Comprende tutti quei fenomeni che si svolgono su lunghezze dell’ordine delle migliaia di chilometri."
+	},
+	{
+		"name":"SINOTTICA",
+		"description":"Pratica che consiste nell’osservazione in tempo reale dell’evoluzione dei vari parametri meteorologici al fine di trarne indicazioni utili per la previsione meteorologica. Una buona analisi sinottica dev’essere improntata sul confronto dei dati rilevati in diretta con quelli osservati precedentemente."
+	},
+	{
+		"name":"SMOG",
+		"description":"Foschia densa caratterizzata da un’alta concentrazione di fumi e gas, si manifesta soprattutto nelle grandi città e durante la stagione invernale."
+	},
+	{
+		"name":"STAU O ADDOSSAMENTO OROGRAFICO",
+		"description":"Fenomeno meteorologico causato dalla risalita di correnti d’aria lungo un versante montani sopravento. Quando una massa d’aria in scorrimento trova un improvviso ostacolo orografico tende a risalirne il versante condensando rapidamente con l’aumentare dell’altitudine; se il flusso d’aria è prolungato, intenso e ricco di umidità si possono avere precipitazioni molto abbondanti e persistenti. Sul lato sottovento l’effetto stau si esaurisce a seguito della quasi totale perdita di umidità e comincia l’effetto Fohen."
+	},
+	{
+		"name":"STRATOSFERA",
+		"description":"Regione atmosferica situata tra la tropopausa e la stratopausa caratterizzata dal fatto che la temperatura cresce con l’altezza."
+	},
+	{
+		"name":"STRATWARMING",
+		"description":"Aumento della temperatura della stratosfera. Spesso, uno Stratwarming precede un’ondata di freddo sull’Europa centrale che, dopo circa una decina di giorni, finisce per interessare anche l’Italia. Secondo le teorie della teleconnessione, uno Stratwarming intenso, caratterizzato da un vigoroso riscaldamento, può generare violente ondate di gelo."
+	},
+	{
+		"name":"SUPERFICI ISOBARICHE",
+		"description":"Superfici di uguale pressione, impiegate per rappresentare la distribuzione della pressione nello spazio. Su ogni superficie isobarica la pressione ha sempre lo stesso valore."
+	},
+	{
+		"name":"SUPERFICI ISOTERMICHE",
+		"description":"Superfici di eguale temperatura, impiegate per rappresentare il campo della temperatura nello spazio."
+	},
+	{
+		"name":"TEMPERATURA DEL PUNTO DI RUGIADA (DEW POINT)",
+		"description":"Temperatura alla quale, a parità di pressione, si può portare una massa d’aria umida perché la sua umidità specifica diventi massima e raggiunga quindi il suo punto di saturazione."
+	},
+	{
+		"name":"TEMPORALE DI MASSA D’ARIA o TEMPORALE DI CALORE",
+		"description":"Temporale generato dal riscaldamento diurno della superficie del terreno o, in montagna, dall’incontro del vento con i pendii. Si forma prevalentemente durante le ore pomeridiane, e la sua durata oscilla mediamente fra i venti minuti e l’ora e mezzo."
+	},
+	{
+		"name":"TEMPORALE DI NATURA FRONTALE",
+		"description":"Temporale generato dall’innalzamento dell’aria più calda durante il movimento di un fronte. Poiché i temporali di natura frontale si spostano col fronte che li genera, possono durare anche diversi giorni, e, prima di esaurirsi, possono coprire distanze di migliaia di chilometri."
+	},
+	{
+		"name":"TEMPESTA TROPICALE",
+		"description":"Figura vorticosa che precede/segue la formazione/declassamento di un uragano di prima categoria. La si individua attraverso l’intensità dei venti che provoca, normalmente essi sono compresi tra i 31 e i 63 nodi (62-126 km/h circa)."
+	},
+	{
+		"name":"TEMPORALE",
+		"description":"Fenomeno meteorologico caratterizzato da forti precipitazioni e scariche elettriche. I temporali si sviluppano a seguito di intensi moti ascendenti che causano la genesi di cumuli a sviluppo verticale che rispettano la sequenza cumulo, cumulo congesto, cumulonembo. I temporali si dividono in frontali, convettivi e orografici. I primi sono legati al sollevamento dell’aria calda preesistente da parte di un fronte freddo, nel secondo tipo rientrano quelli che si formano a seguito del sollevamento dell’aria calda al di sopra di suoli riscaldati, della terza categoria fanno parte i temporali che si formano in prossimità dei versanti sopravento dei rilievi."
+	},
+	{
+		"name":"TENDENZA BAROMETRICA",
+		"description":"Variazione della pressione in un determinato lasso di tempo."
+	},
+	{
+		"name":"TORNADO",
+		"description":"Colonne d’aria caratterizzate da forti moti vorticosi che nascono generalmente nell’estremità inferiore di un mesociclone. La loro genesi è legata al risucchio da parte del moto antiorario (o orario nell’emisfero sud) del mesociclone delle correnti fredde discendenti che andandosi a sovrapporre a quelle calde ascendenti generano forte vorticità locale. I tornado possono raggiungere i 500 km/h radendo al suolo tutto ciò che incontrano sul loro cammino, hanno un diametro generalmente inferiore ai 100 metri e si misurano secondo la scala Fujita in F0/F1/F2/F3/F4/F5."
+	},
+	{
+		"name":"TRAMONTANA",
+		"description":"Vento freddo proveniente da Nord particolarmente frequente durante la stagione invernale. La tramontana è generalmente secca e portatrice di bel tempo, tuttavia quando è legata ad una ciclogenesi può essere foriera di precipitazioni al sud e sul medio basso Adriatico."
+	},
+	{
+		"name":"TROMBA D’ARIA",
+		"description":"E’ una particolare idrometeora, caratterizzata da un moto vorticoso e violento dell’aria, che discende dalla base di un cumulonembo ben sviluppato. Il movimento rotatorio forma un tipico imbuto (o cono) con la base in alto; nell’interno del vortice vi è una depressione, talvolta anche notevole."
+	},
+	{
+		"name":"UMIDITA’ ASSOLUTA",
+		"description":"Quantità di vapore acqueo contenuta in 1 metro cubo di aria. Viene espressa in grammi per m3."
+	},
+	{
+		"name":"UMIDITA’ RELATIVA",
+		"description":"E’ definita come il rapporto tra la pressione di vapore effettiva (e) e la pressione di vapore saturo (es), normalmente espresso in percento. E’ la proprietà del vapore acqueo più frequentemente osservata, e può essere utilizzata per ricavare le altre variabili. Viene espressa in %. Questo rapporto viene chiamato anche stato igrometrico dell’aria."
+	},
+	{
+		"name":"VENTO",
+		"description":"Consiste in un movimento orizzontale dell’aria provocato dalle differenze di pressione atmosferica. E’ definito dalla sua direzione e dalla sua forza o, più esattamente, dalla sua velocità."
+	},
+	{
+		"name":"VORTICE POLARE",
+		"description":"Il Vortice Polare è una configurazione ciclonica che influenza tutto l’Emisfero nord, dall’Europa alla Siberia, al Nord America: in Europa, le depressioni d’Islanda investono pesantemente le regioni settentrionali, con correnti occidentali miti. Altrove si rinnovano i cicli dell’Anticiclone delle Azzorre, con valori che alla topografia di 500 hPa sono elevatissimi. Quando il Vortice Polare tende a diminuire la sua vitalità, per cause naturali ancora sconosciute, innesca una maggiore dinamicità atmosferica alle medie latitudini e quindi conseguenti possibilità di fasi di freddo acuto anche in Europa."
+	},
+	{
+		"name":"VORTICITA’",
+		"description":"(meteorologia dinamica). Vettore avente la direzione dell’asse di rotazione e la grandezza uguale al doppio della velocità angolare di rotazione. La Vorticità si esprime matematicamente mediante semplici relazioni fra le velocità del vento e le sue variazioni da un punto all’altro. Pertanto è possibile calcolare la Vorticità disponendo dei valori del vento. Esiste una stretta connessione tra la distribuzione della Vorticità ed i fenomeni del tempo. (Trattazione matematica)."
+	},
+	{
+		"name":"WIND CHILL",
+		"description":"Equazione empirica introdotta per descrivere quale sia la reale temperatura avvertita da un organismo umano in relazione alla temperatura dell’aria libera e alla velocità del vento. Il wind chill è sempre pari alla temperatura effettiva dell’aria quando la velocità del vento è uguale o minore a 4 nodi. (Approfondimento, Software, Formula)."
+	},
+	{
+		"name":"WIND SHEAR",
+		"description":"Variazione del vento nella libera atmosfera. Si tratta di una improvvisa e sensibile variazione della direzione e/o dell’intensità del vento in una data direzione. Si definiscono le seguenti forme di W.S.:- W.S. a basso livello (LLWS, Low Level Wind Shear);- W.S. orizzontale;- W.S. verticale;- Per saperne di piùW.S.dei venti verticali;- W.S. associato alle correnti a getto."
+	},
+	{
+		"name":"ZONALE (moto o flusso)",
+		"description":"Movimento globale dell’aria secondo i paralleli."
+	}
+]
