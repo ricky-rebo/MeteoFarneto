@@ -1,14 +1,18 @@
 import React, { Component } from "react";
 import {
-  MDBContainer, MDBNavbar,  MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse, 
-  MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem, MDBIcon, MDBRow, MDBCol
+  MDBContainer, MDBNavbar,  MDBNavbarNav, MDBNavItem, MDBNavbarToggler, MDBCollapse, 
+  MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem, MDBIcon
 } from "mdbreact";
 import { Link } from 'gatsby';
-import CustomNavLink from './customLink';
+import PropTypes from 'prop-types';
 import logoImage from "../images/new_logo.png";
 import headerImage from "../images/header.jpg";
 
 class NavbarPage extends Component {
+  static propTypes = {
+    location: PropTypes.object.isRequired
+  }
+
   state = {
     isOpen: false
   };
@@ -18,7 +22,7 @@ class NavbarPage extends Component {
   }
 
   render() {
-    const { title, links, socials } = this.props;
+    const { title, links, socials, location } = this.props;
 
     return (
       <>
@@ -26,15 +30,15 @@ class NavbarPage extends Component {
           <img className="fluid" src={headerImage} width="100%" />
         </div>
         
-
-        <MDBNavbar color="indigo" dark expand="md" className="sticky-top">
+        <MDBNavbar dark expand="md" className="sticky-top">
           <MDBContainer>
             <img src={logoImage} width="50" />
-            <Link to="/" className="navbar-brand">
-              <strong className="ml-3 white-text">{title}</strong></Link>
+            <Link to="/" className="navbar-brand d-block d-md-none">
+              <strong className="ml-3 white-text">{title}</strong>
+            </Link>
             <MDBNavbarToggler name="navbar-toggler" onClick={this.toggleCollapse} />
             <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
-              <MDBNavbarNav left>
+              <MDBNavbarNav left className="ml-3">
                 { 
                   links.map(item => {
                     if(item.type == 'dropdown') {
@@ -45,14 +49,19 @@ class NavbarPage extends Component {
                               <div className="d-inline">{item.name}</div>
                             </MDBDropdownToggle>
                             <MDBDropdownMenu key={item.name + "_link"}>
-                              {item.items.map(link => <MDBDropdownItem key={link.name + "_link"} href={link.url}>{link.name}</MDBDropdownItem>)}
+                              {item.items.map(link => <MDBDropdownItem key={link.name + "_link"} href={link.url} active={location.pathname === link.url}>{link.name}</MDBDropdownItem>)}
                             </MDBDropdownMenu>
                           </MDBDropdown>
                         </MDBNavItem>
                       )
                     }
                     else 
-                      return(<CustomNavLink key={item.name + "_link"} to={item.url}>{item.name}</CustomNavLink>)
+                      return(
+                        <MDBNavItem key={item.name + "_link"} active={(location.pathname === item.url) && (item.url !== "/")}>
+                          <Link to={item.url} className="nav-link"> {item.name} </Link>
+                        </MDBNavItem>
+                          
+                      )
                   })
                 }
               </MDBNavbarNav>
@@ -60,9 +69,11 @@ class NavbarPage extends Component {
                 <div className="d-flex align-items-center">
                   {
                     socials.map(item => (
-                      <CustomNavLink key={item.icon + "_link"} to={item.url}>
-                        <MDBIcon fab icon={item.icon} className="ml-1" />
-                      </CustomNavLink>
+                      <MDBNavItem key={item.name + "_link"} active={location.pathname === item.url}>
+                        <Link to={item.url} className="nav-link"> 
+                          <MDBIcon fab icon={item.icon} className="ml-1" />
+                        </Link>
+                      </MDBNavItem>
                     ))
                   }
                 </div>

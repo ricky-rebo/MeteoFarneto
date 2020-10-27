@@ -3,9 +3,9 @@ import { MDBMedia } from 'mdbreact';
 import glossary from "../../content/glossary_data.json";
 import Layout from '../components/layout';
 
-const GlossaryPage = () => {
+const GlossaryPage = ({ location }) => {
     return (
-        <Layout>
+        <Layout location={location}>
             <MDBMedia list className="mt-3">
                 {
                     glossary.map(item => (

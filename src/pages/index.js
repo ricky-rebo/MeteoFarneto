@@ -9,7 +9,7 @@ import WebcamImage from '../components/webcamImage';
 class App extends Component {
   render() {
     return (
-      <Layout>
+      <Layout location={this.props.location}>
         <SEO title="Home" keywords={[`gatsby`, `MDBReact`, `react`, `Material Design For Bootstrap`]} />
         <main>
           <AboutSection />

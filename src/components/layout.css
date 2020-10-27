@@ -15,6 +15,10 @@
   background: var(--col-primary) !important;
 }
 
+.dropdown-item.active {
+  background-color: rgba(0, 0, 0, 0.1) !important;
+}
+
 .page-footer {
   margin: 0;
   background: var(--col-primary) !important;

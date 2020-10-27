@@ -1,11 +1,12 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
+import { MDBContainer } from 'mdbreact';
 import Navbar from './navbar'
 import Footer from './footer'
 import "./layout.css"
 
-const Layout = ({ children }) => (
+const Layout = ({ location, children }) => (
      <>
         <StaticQuery
           query={navQuery}
@@ -14,10 +15,14 @@ const Layout = ({ children }) => (
               title={data.site.siteMetadata.title}
               links={data.site.siteMetadata.menuLinks}
               socials={data.site.siteMetadata.menuSocials}
+              location={location}
             />
           )}
         />
-        {children}
+        <MDBContainer>
+          {children}
+        </MDBContainer>
+        
         <Footer />
       </>
 )
