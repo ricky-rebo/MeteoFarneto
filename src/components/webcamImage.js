@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+
 class WebcamImage extends Component {
     constructor() {
         super();
@@ -11,7 +12,7 @@ class WebcamImage extends Component {
     }
 
     componentDidMount() {
-        this.interval = setInterval(() => this.setState({tick: this.state.tick + 1}), 180000);
+        this.interval = setInterval(() => this.setState({tick: this.state.tick + 1}), this.props.interval);
     }
 
     componentWillUnmount() {
@@ -21,7 +22,7 @@ class WebcamImage extends Component {
     render() {
         return (
             <>
-                <img src="https://www.rebottini.it/webcam/webcamimage.jpg" className="img-fluid" />
+                <img src={this.props.src} className="img-fluid" />
             </>
         );
     }
