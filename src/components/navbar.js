@@ -69,7 +69,7 @@ class NavbarPage extends Component {
                 <div className="d-flex align-items-center">
                   {
                     socials.map(item => (
-                      <MDBNavItem key={item.name + "_link"} active={location.pathname === item.url}>
+                      <MDBNavItem key={item.icon + "_link"} active={location.pathname === item.url}>
                         <Link to={item.url} className="nav-link"> 
                           <MDBIcon fab icon={item.icon} className="ml-1" />
                         </Link>
