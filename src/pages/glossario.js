@@ -1,6 +1,6 @@
 import React from 'react';
 import { MDBMedia } from 'mdbreact';
-import glossary from "../../content/glossary_data.json";
+import glossary from "../shared/glossary_data.json";
 import Layout from '../components/layout';
 
 const GlossaryPage = ({ location }) => {
@@ -20,7 +20,6 @@ const GlossaryPage = ({ location }) => {
                 }
             </MDBMedia>
         </Layout>
-            
     )
 }
 
