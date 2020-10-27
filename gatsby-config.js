@@ -26,8 +26,8 @@ module.exports = {
       { type: 'link', name: 'Qualità dell\'aria', url: '/qualita_aria' }
     ],
     menuSocials: [
-      { icon: 'facebook', url: '#!' },
-      { icon: 'twitter', url: '#!' }
+      { icon: 'facebook', url: 'https://www.facebook.com/meteofarneto/' },
+      { icon: 'twitter', url: 'https://twitter.com/MeteoFarneto' }
     ]
   },
   plugins: [
