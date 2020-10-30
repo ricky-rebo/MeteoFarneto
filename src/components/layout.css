@@ -1,7 +1,7 @@
 :root {
   --col-primary: #00796B;
   --col-dark: #005e53;
-  --col-light: #009181;
+  --col-light: #4ecabc;
 
   --col-bg: #F0F0F0;
   
@@ -31,3 +31,44 @@
     padding: 4rem 0;
 }
 
+ /* ===== ScrollToTop Component CSS ===== */
+.scrollTop {
+  position: fixed; 
+  width: 40px;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  cursor: pointer;
+  animation: fadeIn 0.3s;
+  transition: opacity 0.4s;
+  opacity: 0.5;
+}
+
+.scrollTop:hover{
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+/* ====================================== */
+
+
+/* ===== Index Component CSS ===== */
+.navbar.navbar-light {
+  background-color: var(--col-light);
+}
+
+.navbar.navbar-light a {
+  text-decoration: none;
+  color: var(--col-contrast);
+}
+.navbar.navbar-light a:hover {
+  font-weight: bold;
+}
+/* =============================== */
