@@ -8,13 +8,17 @@ import './satellite.css'
 const SatellitePage = ({ location }) => {
     return (
         <Layout location={location}>
+            <h1>Vista da Satellite</h1>
             <MDBRow>
-                <MDBCol middle md="6">
+                <MDBCol md="6">
+                    <h3>Italia</h3>
                     <a href={sat24Url}>
                         <img src={satelliteItaly} className="satImg" />
                     </a>
                 </MDBCol>
-                <MDBCol middle md="6">
+                <MDBCol size="12" className="d-block d-md-none"><hr /></MDBCol>
+                <MDBCol md="6">
+                    <h3>Europa</h3>
                     <a href={sat24Url}>
                         <img src={satelliteEurope} className="satImg" />
                     </a>
