@@ -70,9 +70,9 @@ class NavbarPage extends Component {
                   {
                     socials.map(item => (
                       <MDBNavItem key={item.icon + "_link"} active={location.pathname === item.url}>
-                        <Link to={item.url} className="nav-link"> 
+                        <a href={item.url} className="nav-link"> 
                           <MDBIcon fab icon={item.icon} className="ml-1" />
-                        </Link>
+                        </a>
                       </MDBNavItem>
                     ))
                   }
