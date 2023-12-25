@@ -6,7 +6,7 @@
   "author": "Riccardo Rebottini <ricky@rebottini.it>",
   "dependencies": {
     "@svgr/webpack": "^4.1.0",
-    "gatsby": "^2.0.76",
+    "gatsby": "^2.32.4",
     "gatsby-image": "^2.0.20",
     "gatsby-plugin-manifest": "^2.0.9",
     "gatsby-plugin-offline": "^2.0.16",
@@ -15,11 +15,16 @@
     "gatsby-plugin-svgr": "^2.0.1",
     "gatsby-source-filesystem": "^2.0.8",
     "gatsby-transformer-sharp": "^2.1.8",
-    "mdbreact": "4.10.0",
+    "mdbreact": "^5.0.1",
     "prop-types": "^15.6.2",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-helmet": "^5.2.0"
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^5.2.0",
+    "react-icons": "^4.2.0",
+    "steelseries": "^1.0.7",
+    "typescript": "^4.1.5",
+    "universal-cookie": "^4.0.4",
+    "weather-units-conversion": "^1.0.1"
   },
   "keywords": [
     "gatsby",

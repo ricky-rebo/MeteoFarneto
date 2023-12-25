@@ -5,10 +5,13 @@ import {
 } from "mdbreact";
 import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
+
+// @ts-ignore
 import logoImage from "../images/new_logo.png";
+// @ts-ignore
 import headerImage from "../images/header.jpg";
 
-class NavbarPage extends Component {
+class NavbarPage extends Component<Props, State> {
   static propTypes = {
     location: PropTypes.object.isRequired
   }
@@ -87,3 +90,27 @@ class NavbarPage extends Component {
 }
 
 export default NavbarPage;
+
+interface MenuLink {
+  type: "link",
+  name: string,
+  url: string
+}
+
+interface MenuDropdown {
+  type: "dropdown",
+  name: string,
+  items: MenuLink[]
+}
+
+interface Props {
+  title: any,
+  links: (MenuLink|MenuDropdown)[],
+  socials: { icon: string, url: string }[], 
+  location: any
+}
+
+
+interface State {
+  isOpen: boolean
+}

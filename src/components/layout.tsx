@@ -6,7 +6,7 @@ import Navbar from './navbar'
 import Footer from './footer'
 import "./layout.css"
 
-const Layout = ({ location, children }) => (
+const Layout = ({ location, children }: { location: any, children: undefined }) => (
      <>
         <StaticQuery
           query={navQuery}
@@ -19,6 +19,7 @@ const Layout = ({ location, children }) => (
             />
           )}
         />
+        
         <MDBContainer>
           {children}
         </MDBContainer>

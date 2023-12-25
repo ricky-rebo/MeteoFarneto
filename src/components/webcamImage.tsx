@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 
 
-class WebcamImage extends Component {
-    constructor() {
-        super();
+class WebcamImage extends Component<{src: string, interval: number}, {tick: number}> {
+    interval: any;
+    constructor(props) {
+        super(props);
 
         this.interval = null;
         this.state = {
